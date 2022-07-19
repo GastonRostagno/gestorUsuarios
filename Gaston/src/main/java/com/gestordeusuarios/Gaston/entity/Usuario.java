@@ -56,15 +56,15 @@ public class Usuario {
         this.id = id;
     }
     
-    public String nombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public void nombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public String getEmail() {
+   public String getEmail() {
         return email;
     }
 
@@ -95,11 +95,12 @@ public class Usuario {
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
     }
-
+	
     @Override
     public String toString() {
     	return "Usuario [id=" + id + ", nombre=" + nombre + ", email=" + email + ", password=" + password + ", createdAt=" + createdAt
                 + ", updatedAt=" + updatedAt + "]";
 	    }
+	
 }
 	

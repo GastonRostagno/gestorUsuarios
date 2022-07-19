@@ -42,7 +42,6 @@ public class UsuarioRestController {
 
     @PostMapping("/usuarios")
     public Usuario addUsuario(@RequestBody Usuario usuario) {
-    	usuario.setId(0);
     	usuarioService.save(usuario);
 
         return usuario;
