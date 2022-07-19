@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.gestordeusuarios.Gaston.entity.Usuario;
 
+
 public interface UsuarioService {
 
     public List<Usuario> findAll();
